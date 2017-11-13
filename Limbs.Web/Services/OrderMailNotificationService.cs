@@ -19,7 +19,7 @@ namespace Limbs.Web.Services
             switch (newStatus)
             {
                 case OrderStatus.NotAssigned:
-                    //No entra nunca
+                    //No entra nunca gil
                     break;
                 case OrderStatus.PreAssigned:
                     //Entra por SendAmbassadorChangedNotification
